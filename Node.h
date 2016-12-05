@@ -6,16 +6,16 @@
 #define DOMINANTSET_NODE_H
 #include "Headers.h"
 
-
 class Node {
 private:
     Color color;
-    vector <Node> neighbors;
+    std::vector <Node> neighbors;
+    Id id;
 public:
-    Node(Color color);
-    Node();
+    Node(Id, Color);
+    Node(Id);
     Color getColor();
-    void setColor(Color color);
+    void setColor(Color);
 };
 
 

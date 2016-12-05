@@ -3,7 +3,11 @@
 //
 
 #include "Node.h"
+using namespace std;
 
-Node::Node(Color color) : color(color), neighbors(0,new Neighbor()) {}
-Node::Node() : color(Color::White) {}
-Color Node::getColor() {}
+Node::Node(Id id, Color color) : color(color), id(id) {}
+Node::Node(Id id) : id(id) {}
+Color Node::getColor() { return color;}
+void Node::setColor(Color c) {
+    color = c;
+}

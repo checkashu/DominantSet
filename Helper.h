@@ -7,10 +7,25 @@
 
 #include "Headers.h"
 
+//enums
 enum Color{
     Black,
     Grey,
     White,
 };
+
+
+//macros
+#define nsize(container) (int)container.size
+
+#define MFOR(i,n) for(int (i)=0;(i)<(n);++(i))
+#define FOR(i,n,m) for(int (i)=(n);(i)<=(m);(i)++)
+#define RFOR(i,n,m) for(int (i)=(n);(i)>=(m);(i)--)
+#define FORALL(it,i)  for(auto (it) = (i).begin(); (it) != (i).end(); (it)++)
+
+
+
+//typedefs
+typedef int Id;
 
 #endif //DOMINANTSET_HELPER_H
