@@ -5,17 +5,29 @@
 #ifndef DOMINANTSET_NODE_H
 #define DOMINANTSET_NODE_H
 #include "Headers.h"
+#include "Helper.h"
+
+enum Color{
+    Black,
+    Grey,
+    White,
+};
+
+typedef int Id;
+
 
 class Node {
 private:
     Color color;
-    std::vector <Node> neighbors;
     Id id;
+
 public:
+
     Node(Id, Color);
     Node(Id);
-    Color getColor();
-    void setColor(Color);
+    Node();
+    Color get_color();
+    void set_color(Color);
 };
 
 

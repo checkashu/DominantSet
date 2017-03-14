@@ -6,13 +6,13 @@
 #define DOMINANTSET_HELPER_H
 
 #include "Headers.h"
+#include "Graph.h"
+#include "GraphHelper.h"
+
+#include "Node.h"
 
 //enums
-enum Color{
-    Black,
-    Grey,
-    White,
-};
+
 
 
 //macros
@@ -26,6 +26,5 @@ enum Color{
 
 
 //typedefs
-typedef int Id;
-
+//typedef std::vector<std::vector<int> > adj_list;
 #endif //DOMINANTSET_HELPER_H

@@ -8,13 +8,19 @@
 #include "Headers.h"
 #include "Node.h"
 
+typedef std::vector<std::vector<bool> > Adj_list;
+typedef std::vector<Node> Nodes;
+
+typedef int Number;
+
 class Graph {
 private:
-    std::vector<Node> nodes;
-
+    Adj_list adj_list;
+    Nodes nodes;
+    Number number;
 public:
-    bool addNode(int);
-    Graph createGraph(int, int, int); //#nodes, length, breadth
-
+    Graph(int);
+    bool add_node(int);
+    void create_and_return_graph(int);//# of nodes
 };
 #endif //DOMINANTSET_GRAPH_H
