@@ -2,7 +2,7 @@
 // Created by Ashutosh Tiwari on 06/12/16.
 //
 
-#include "GraphHelper.h"
+#include "../include/GraphHelper.h"
 
 using namespace std;
 

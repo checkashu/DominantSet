@@ -2,7 +2,7 @@
 // Created by Ashutosh Tiwari on 05/12/16.
 //
 
-#include "Node.h"
+#include "../include/Node.h"
 using namespace std;
 
 Node::Node() {

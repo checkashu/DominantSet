@@ -2,7 +2,7 @@
 // Created by Ashutosh Tiwari on 06/12/16.
 //
 
-#include "Graph.h"
+#include "../include/Graph.h"
 
 using namespace std;
 

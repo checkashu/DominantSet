@@ -1,6 +1,6 @@
-#include "Headers.h"
-#include "GraphHelper.h"
-#include "Helper.h"
+#include "../include/Headers.h"
+#include "../include/GraphHelper.h"
+#include "../include/Helper.h"
 
 using namespace std;
 int main() {
